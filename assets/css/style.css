@@ -21,6 +21,7 @@ h4,
 h5,
 h6 {
   color: #1e1e1e;
+  font-family: 'Racing Sans One', cursive;
 }
 
 a {
@@ -437,11 +438,15 @@ a:hover {
   z-index: 997;
   padding: 20px 0;
 }
+
+
 #header .logo {
-  font-size: 28px;
+  font-size: 48px;
+  font-family: 'Racing Sans One', cursive;
   margin: 0;
-  padding: 0;
-  font-weight: 600;
+  padding-right: 0;
+  line-height: 1;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 #header .logo a {
