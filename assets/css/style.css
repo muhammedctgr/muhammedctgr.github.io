@@ -441,17 +441,16 @@ a:hover {
 
 
 #header .logo {
-  font-size: 48px;
+  font-size: 35px;
   font-family: 'Racing Sans One', cursive;
   margin: 0;
   padding-right: 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 1px;
-}
-#header .logo a {
   color: #fff;
 }
+
 #header .logo img {
   max-height: 40px;
 }
