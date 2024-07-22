@@ -772,7 +772,6 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -790,12 +789,6 @@ a:hover {
   }
 }
 
-.skill-mf {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
 .skill-mf a {
   display: inline-block;
   margin-right: 10px; /* Adjust spacing between items */
@@ -808,7 +801,7 @@ a:hover {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%) ;
+    transform: translateX(-100%);
   }
 }
 

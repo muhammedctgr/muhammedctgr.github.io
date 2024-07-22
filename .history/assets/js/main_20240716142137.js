@@ -227,12 +227,12 @@
   }
 
   // JavaScript to reset animation position after each loop
-  const items = document.querySelectorAll('.skill-mf a');
+const items = document.querySelectorAll('.skill-mf a');
 
-  items.forEach(item => {
-    item.addEventListener('animationiteration', () => {
-      item.style.transform = 'translateX(0%)';
-    });
+items.forEach(item => {
+  item.addEventListener('animationiteration', () => {
+    item.style.transform = 'translateX(0%)';
   });
+});
 
 })()

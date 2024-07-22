@@ -772,7 +772,6 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -799,7 +798,7 @@ a:hover {
 .skill-mf a {
   display: inline-block;
   margin-right: 10px; /* Adjust spacing between items */
-  animation: moveItems 3s linear infinite; /* Adjust animation duration */
+  animation: moveItems 5s  infinite; /* Adjust animation duration */
   margin-top: 5px;
 }
 

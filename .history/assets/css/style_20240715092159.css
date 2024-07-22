@@ -202,39 +202,6 @@ a:hover {
   }
 }
 
-/* Play icon styles */
-.play-icon {
-  width: 100px;
-  height: 100px;
-  position: fixed; /* Fixed position to stay in place */
-  top: 60px; /* Distance from the top */
-  left: 20px; /* Distance from the right */
-}
-
-/* Triangle for play icon */
-.triangle {
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 30px solid #0078ff; /* Color of the triangle */
-  position: absolute;
-  left: 30px;
-  top: 20px;
-  animation: rotate 3s linear infinite; /* Animation properties */
-
-}
-
-/* Keyframes for animation */
-@keyframes rotate {
-  0% {
-    transform: scale(1) rotate(0deg);
-  }
-  100% {
-    transform: scale(1.2) rotate(360deg);
-  }
-}
-
 /*------/ Socials /------*/
 .socials {
   padding: 1.5rem 0;
@@ -243,7 +210,7 @@ a:hover {
 }
 .socials ul li {
   display: inline-block;
-  margin: 10px;
+  ma
 }
 .socials .ico-circle {
   font-size: 1.7rem;
@@ -537,7 +504,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #0078ff;
+  background-color: #fff;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -772,7 +739,6 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -787,28 +753,6 @@ a:hover {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
-  }
-}
-
-.skill-mf {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.skill-mf a {
-  display: inline-block;
-  margin-right: 10px; /* Adjust spacing between items */
-  animation: moveItems 3s linear infinite; /* Adjust animation duration */
-  margin-top: 5px;
-}
-
-@keyframes moveItems {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%) ;
   }
 }
 

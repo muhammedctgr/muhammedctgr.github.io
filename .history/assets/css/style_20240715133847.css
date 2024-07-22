@@ -206,9 +206,8 @@ a:hover {
 .play-icon {
   width: 100px;
   height: 100px;
-  position: fixed; /* Fixed position to stay in place */
-  top: 60px; /* Distance from the top */
-  left: 20px; /* Distance from the right */
+  position: relative;
+  cursor: pointer;
 }
 
 /* Triangle for play icon */
@@ -217,12 +216,11 @@ a:hover {
   height: 0;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
-  border-left: 30px solid #0078ff; /* Color of the triangle */
+  border-left: 30px solid #333; /* Color of the triangle */
   position: absolute;
   left: 30px;
   top: 20px;
-  animation: rotate 3s linear infinite; /* Animation properties */
-
+  animation: rotate 1s linear infinite; /* Animation properties */
 }
 
 /* Keyframes for animation */
@@ -537,7 +535,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #0078ff;
+  background-color: #fff;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -772,7 +770,6 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -787,28 +784,6 @@ a:hover {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
-  }
-}
-
-.skill-mf {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.skill-mf a {
-  display: inline-block;
-  margin-right: 10px; /* Adjust spacing between items */
-  animation: moveItems 3s linear infinite; /* Adjust animation duration */
-  margin-top: 5px;
-}
-
-@keyframes moveItems {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%) ;
   }
 }
 

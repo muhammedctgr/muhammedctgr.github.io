@@ -206,8 +206,8 @@ a:hover {
 .play-icon {
   width: 100px;
   height: 100px;
-  position: fixed; /* Fixed position to stay in place */
-  top: 60px; /* Distance from the top */
+
+  top: 0px; /* Distance from the top */
   left: 20px; /* Distance from the right */
 }
 

@@ -772,7 +772,6 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -805,7 +804,7 @@ a:hover {
 
 @keyframes moveItems {
   0% {
-    transform: translateX(0%);
+    transform: translateY(0%);
   }
   100% {
     transform: translateX(-100%) ;

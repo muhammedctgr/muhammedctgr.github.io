@@ -772,7 +772,6 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -790,16 +789,11 @@ a:hover {
   }
 }
 
-.skill-mf {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
 .skill-mf a {
   display: inline-block;
-  margin-right: 10px; /* Adjust spacing between items */
-  animation: moveItems 3s linear infinite; /* Adjust animation duration */
+  margin-right: 20px; /* Adjust spacing between items */
+  transform: translateX(0%);
+  animation: moveItems s linear infinite; /* Adjust animation duration */
   margin-top: 5px;
 }
 
@@ -808,7 +802,7 @@ a:hover {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%) ;
+    transform: translateX(-100%);
   }
 }
 
